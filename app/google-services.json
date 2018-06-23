@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "316701326884",
+    "firebase_url": "https://bonappetit-35cde.firebaseio.com",
+    "project_id": "bonappetit-35cde",
+    "storage_bucket": "bonappetit-35cde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316701326884:android:2f95605531964204",
+        "android_client_info": {
+          "package_name": "com.example.android.foods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316701326884-79k4ko11qgt4orbsiit8dm0f83ve4ihp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.foods",
+            "certificate_hash": "c32968c0ddcb477ac1a956b3d2857e28055839b1"
+          }
+        },
+        {
+          "client_id": "316701326884-lmvjl1qkiug0sgkgeuibcutn6vrr1hqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdwMnmgE-Cgkv-J3fEpRwLF9gZNOJs48o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316701326884-lmvjl1qkiug0sgkgeuibcutn6vrr1hqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Ingredients Available"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:textSize="20sp"/>
+    <AutoCompleteTextView
+        android:id="@+id/ingr_available"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Ingredient"
+        android:completionThreshold="1"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/finder_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:backgroundTint="#ff0"
+            android:textColor="#f00"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/finish_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DONE"
+            android:backgroundTint="#0f0"
+            android:textColor="#000"
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".RecipeListActivity"
+        android:id="@+id/recyclerview1">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

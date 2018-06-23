@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bon Appetit</string>
+    <string-array name="ingredients_allowed">
+        <item>flour</item>
+        <item>onion</item>
+        <item>garlic</item>
+        <item>green pepper</item>
+        <item>milk</item>
+        <item>butter</item>
+        <item>paneer</item>
+        <item>tomato</item>
+        <item>chickpeas</item>
+        <item>cauliflower</item>
+        <item>peas</item>
+        <item>cabbage</item>
+        <item>potato</item>
+        <item>rolls</item>
+        <item>channa dal</item>
+        <item>milk powder</item>
+        <item>maida</item>
+        <item>chicken</item>
+    </string-array>
+</resources>
